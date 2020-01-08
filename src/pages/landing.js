@@ -6,8 +6,7 @@ import { Layout, SEO } from 'components';
 import { Link } from 'gatsby';
 import { Button } from 'antd';
 
-
-const Index = (props) => {
+const LandingPage = (props) => {
 
   return (
     <Layout>
@@ -26,4 +25,4 @@ const Index = (props) => {
   );
 };
 
-export default (Index);
+export default LandingPage;

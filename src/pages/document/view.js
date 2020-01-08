@@ -1,4 +1,5 @@
 import React from 'react';
+import { Router } from '@reach/router';
 
 import Image from 'components/image';
 import { Layout, SEO } from 'components';
@@ -7,23 +8,23 @@ import { Link } from 'gatsby';
 import { Button } from 'antd';
 
 
-const Index = (props) => {
+const View = (props) => {
+  console.log(props);
 
   return (
     <Layout>
       <SEO title="Home" />
 
       <Button>
-      testing ant
+      viewviewviewviewviewviewviewview
       </Button>
 
       <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
         <Image />
       </div>
 
-      <Link to="/dashboard">dashboard</Link>
     </Layout>
   );
 };
 
-export default (Index);
+export default View;
